@@ -74,7 +74,7 @@ aws events put-targets --rule "my-trusted-advisor-wire" --targets "Id"="1","Arn"
 ---
 
 ##  Core Competencies Demonstrated
-* **Technical Product Management:** Translating real-world cloud spend failures into highly controlled, cost-bounded system requirements.
+* **Workflow Improvement:** Translating real-world cloud spend failures into highly controlled, cost-bounded system requirements.
 * **Event-Driven Architecture:** Utilizing decoupled cloud primitives (EventBridge, SNS) to reduce system overhead.
 * **Infrastructure Automation:** Transitioning manual GUI-based console actions into repeatable shell scripts.
 
