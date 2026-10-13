@@ -29,6 +29,7 @@ The layout relies on a decoupled, real-time alert pipeline using official AWS bl
 1. **The Guard (AWS Trusted Advisor):** Scans the AWS account automatically for foundational security optimizations and cost-saving metrics.
 2. **The Wire (Amazon EventBridge):** An event rule filters and catches status changes from Trusted Advisor instantly at zero cost.
 3. **The Loudspeaker (Amazon SNS):** Relays the structured payload and broadcasts an alert to a verified operations email box.
+4. **Topology Choice:** Deliberately chose an event-driven EventBridge routing topology over CloudWatch metric alarms to bypass corporate AWS Support Plan requirements, ensuring a production-ready notification network that is 100% Free-Tier compatible.
 <img width="2257" height="770" alt="image" src="https://github.com/user-attachments/assets/b7faed26-0b1c-407c-912d-913e059e6cd1" />
 
 ---
