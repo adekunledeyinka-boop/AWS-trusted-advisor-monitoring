@@ -29,6 +29,7 @@ The layout relies on a decoupled, real-time alert pipeline using official AWS bl
 1. **The Guard (AWS Trusted Advisor):** Scans the AWS account automatically for foundational security optimizations and cost-saving metrics.
 2. **The Wire (Amazon EventBridge):** An event rule filters and catches status changes from Trusted Advisor instantly at zero cost.
 3. **The Loudspeaker (Amazon SNS):** Relays the structured payload and broadcasts an alert to a verified operations email box.
+<img width="2257" height="770" alt="image" src="https://github.com/user-attachments/assets/b7faed26-0b1c-407c-912d-913e059e6cd1" />
 
 ---
 
@@ -71,7 +72,7 @@ aws events put-targets --rule "my-trusted-advisor-wire" --targets "Id"="1","Arn"
 
 ---
 
-## 💼 Core Competencies Demonstrated
+##  Core Competencies Demonstrated
 * **Technical Product Management:** Translating real-world cloud spend failures into highly controlled, cost-bounded system requirements.
 * **Event-Driven Architecture:** Utilizing decoupled cloud primitives (EventBridge, SNS) to reduce system overhead.
 * **Infrastructure Automation:** Transitioning manual GUI-based console actions into repeatable shell scripts.
